@@ -40,7 +40,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         self.send_response(201)
         self.end_headers()
 
-httpd = socketserver.TCPServer(('', os.environ.get('PORT', 80)), Handler)
+httpd = socketserver.TCPServer(('', int(os.environ.get('PORT', 80))), Handler)
 try:
    httpd.serve_forever()
 except KeyboardInterrupt:
