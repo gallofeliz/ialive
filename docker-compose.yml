@@ -7,6 +7,4 @@ services:
     ports:
         - "8080:8677"
     environment:
-      - USERNAME=test1
-      - PASSWORD=test2
       - PORT=8677

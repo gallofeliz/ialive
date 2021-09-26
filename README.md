@@ -5,4 +5,4 @@ Personal app.
 
 - Add to your smartphone app to send POST /ping to register event
 - Configure grafana to alert in case of long period without event
-- Use reverse-proxy (ex traefik) to configure SSL, basic auth, etc
+- Use reverse-proxy (ex traefik) to configure SSL, basic auth, etc (public exposition) ; previous commit contains basic auth
